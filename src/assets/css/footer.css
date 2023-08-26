@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+    padding-top: 2vw;
+
+    width: 90%;
+    height: 100px;
+
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.logo {
+    font-stretch: 150%;
+    font-weight: bold;
+}

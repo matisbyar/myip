@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-content: center;
+
+    margin: 0;
+    padding: 0 5vw ;
+
+    height: 70px;
+
+    position: sticky;
+    top: 0;
+
+    -webkit-backdrop-filter: blur(180px);
+}
+
+header .nav-logo, header .nav-actions {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    margin: 0;
+    gap: 20px;
+
+    cursor: pointer;
+}
+
+.nav-title {
+    text-shadow: none;
+
+    transition: text-shadow 0.25s;
+}
+
+.nav-title:hover {
+    text-shadow: 0 0 30px rgba(89, 173, 196, 0.58);
+
+    transition: text-shadow 0.25s;
+}
+
+.nav-actions .nav-action {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 10px;
+
+    transition: color 0.25s;
+}
+
+.nav-actions .nav-action:hover {
+    color: #59adc4;
+
+    transition: color 0.25s;
+}
+
+.small-icon {
+    width: 25px;
+    height: 25px;
+}
