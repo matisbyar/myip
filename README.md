@@ -25,4 +25,4 @@ MyIP uses [ipify](https://www.ipify.org/) to fetch your public IP address. The A
 
 ## More
 
-MyIP was created with React and Vite. It uses [ipify](https://www.ipify.org/) to fetch your public IP address and [ipstack](https://ipstack.com/) to fetch your location, ISP and time zone.
+MyIP was created with React and Vite. It uses [ipify](https://www.ipify.org/) to fetch your public IP address to fetch your location, ISP and time zone. Google Maps is used to display the map.
