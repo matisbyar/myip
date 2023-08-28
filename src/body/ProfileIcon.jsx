@@ -1,13 +1,3 @@
-/*
- * Copyright (C) 2023 Matis Byar. - All Rights Reserved
- *
- * Unauthorized copying or redistribution of this file, in source or binary forms, via any medium,
- * is strictly prohibited.
- *
- * For inquiries or licensing options, please contact:
- * matis@byar.fr
- */
-
 import code from "../assets/images/code.svg";
 import si from "../assets/images/information_systems.svg";
 import design from "../assets/images/design.svg";
